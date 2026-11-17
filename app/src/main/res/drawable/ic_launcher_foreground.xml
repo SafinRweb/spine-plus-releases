@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Logo A: three records on a shelf, the last one leaning. The middle one is partly
+     filled with the play colour.
+
+     An adaptive icon may be cut to a circle 66 units across (of 108), so the whole logo,
+     corners included, has to sit inside that circle. Drawn at full size its corners reach
+     41 units from the centre; scaled to 0.74 they reach 30, which leaves a margin. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="56"
+        android:scaleX="0.74"
+        android:scaleY="0.74"
+        android:translateY="-2">
+        <path
+            android:fillColor="#F0F0EE"
+            android:pathData="M24.24,28.08h11.52v53.76h-11.52z" />
+        <path
+            android:fillColor="#F0F0EE"
+            android:pathData="M39.6,28.08h17.28v53.76h-17.28z" />
+        <path
+            android:fillColor="#2B4BFF"
+            android:pathData="M39.6,59.28h17.28v22.56h-17.28z" />
+        <!-- Leans 13 degrees to the right, pivoting on its bottom-left corner. -->
+        <group
+            android:pivotX="60.72"
+            android:pivotY="81.84"
+            android:rotation="13">
+            <path
+                android:fillColor="#F0F0EE"
+                android:pathData="M60.72,28.08h11.52v53.76h-11.52z" />
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window theme only; all UI is drawn by Compose (see ui/theme/Theme.kt). The window
+         is the paper colour so nothing white shows before the first screen is drawn. -->
+    <style name="Theme.Spine" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+    </style>
+
+    <!-- The Quick download panel: a see-through window, so the app the link was shared
+         from stays visible behind it. -->
+    <style name="Theme.Spine.Panel">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

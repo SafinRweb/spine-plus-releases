@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The logo for the screen Android shows while the app starts. That screen cuts its icon
+     to a circle two thirds of the icon's width (36 of 54 units from the centre here), so
+     the logo is scaled to 0.8: its corners then reach 33 units and nothing is cropped. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="56"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateY="-2">
+        <path
+            android:fillColor="#F0F0EE"
+            android:pathData="M24.24,28.08h11.52v53.76h-11.52z" />
+        <path
+            android:fillColor="#F0F0EE"
+            android:pathData="M39.6,28.08h17.28v53.76h-17.28z" />
+        <path
+            android:fillColor="#2B4BFF"
+            android:pathData="M39.6,59.28h17.28v22.56h-17.28z" />
+        <group
+            android:pivotX="60.72"
+            android:pivotY="81.84"
+            android:rotation="13">
+            <path
+                android:fillColor="#F0F0EE"
+                android:pathData="M60.72,28.08h11.52v53.76h-11.52z" />
+        </group>
+    </group>
+</vector>

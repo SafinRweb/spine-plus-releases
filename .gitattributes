@@ -1,0 +1,9 @@
+# Keep line endings stable across machines.
+* text=auto
+
+# The Unix wrapper script must keep LF or it will not run; the Windows one needs CRLF.
+gradlew text eol=lf
+*.bat text eol=crlf
+
+*.jar binary
+*.png binary

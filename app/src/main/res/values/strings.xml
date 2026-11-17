@@ -1,0 +1,6 @@
+<resources>
+    <!-- Working name, so it can be told from Spine on the home screen. -->
+    <string name="app_name">Spine+</string>
+    <!-- The second entry in other apps' Share lists. -->
+    <string name="quick_download">Quick download</string>
+</resources>
